@@ -1,0 +1,19 @@
+{
+    "name": "javacode/belajar-php-library",
+    "description": "Belajar PHP Library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MDzikri13",
+            "email": "fadilahzikri13@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "javacode\\Belajar\\": "src/"
+        }
+    }
+}
